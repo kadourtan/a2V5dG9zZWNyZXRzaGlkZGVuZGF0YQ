@@ -8,7 +8,7 @@ def hash_password(password):
 def main():
     password = input("Enter your password: ")
     hashed_password = hash_password(password)
-    print(f"Hashed password: {hashed_password}")
+    
 
     
     hidden_passphrase = "cGFzc3Rhbg=="  
